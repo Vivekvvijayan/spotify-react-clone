@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo-container{
+    width: 140px;
+    height: 140px;
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+#loginBtn{
+    padding: 12px;
+    width: 150px;
+    background-color: rgb(120, 221, 120);
+    color: #000;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#loginBtn:hover{
+    opacity: .7;
+}
